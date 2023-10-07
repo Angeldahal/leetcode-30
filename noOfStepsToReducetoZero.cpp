@@ -14,6 +14,9 @@
 //Step 5) 2 is even; divide by 2 and obtain 1.
 //Step 6) 1 is odd; subtract 1 and obtain 0.
 
+#include <iostream>
+using namespace std;
+
 class Solution {
 public:
     int numberOfSteps(int num) {
@@ -30,3 +33,11 @@ public:
         return steps;
     }
 };
+
+int main(){
+    Solution s;
+    int num = 14;
+    cout << s.numberOfSteps(num) << endl;
+    return 0;
+}
+

@@ -34,3 +34,6 @@ const numberOfSteps = function(num) {
     }
     return steps
 };
+
+// Call the Function
+numberOfSteps(14)

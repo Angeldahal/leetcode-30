@@ -29,3 +29,8 @@ class Solution:
             steps += 1
 
         return steps
+
+
+# Using the Solution
+solution = Solution()
+print(solution.numberOfSteps(14))
