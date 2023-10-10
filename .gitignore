@@ -1,2 +1,8 @@
 /.idea
 /*.out
+/*.pyc
+/*.pyo
+
+a.out
+*.out
+/Day 5/a.out
